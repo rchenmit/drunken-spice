@@ -1,0 +1,260 @@
+% This is paper.tex
+
+
+\section{Introduction}  
+The Charles River has been a landmark of Boston for several decades. Every fourth of July, fireworks are set off from a barge on the river while the Boston Pops Orchestra performs for half a million spectators.  Professional rowers as well as the MIT crew team train on the river. The river also serves as a swimming area for daring MIT students.  As well, the river is a playground for MIT chemistry students who want to understand the chemical contents of the river. 
+
+It is important to monitor the presence of oxygen in the river, because the dissovled oxygen in the river provides nutrients to support certain aquatic life.  A satisfactory dissolved oxygen (DO) level that would be about 5.0 mg/L. Most fish are able to survive at this level. Some species such as trout and small mouth bass require levels of up to 6.5 mg/L; other species such as catfish and carp only require DO levels of 2.0-3.0 mg/L. If the level falls to 3.0-4.0 mg/L, the environment of the river could be harmful to most fish. A dissolved oxygen level of 2.0 mg/L would cause most fish to die. 
+
+EEQUATION
+
+	Another substance that should be analyzed is inorganic orthophosphate. Orthophosphate provides nutrients for eutrophication, which can be harmful to fish. Soil erosion as well as pollution from grass can lead to increased levels of orthophosphate. 
+
+EQUATION 
+
+	We analyzed the DO content of the river water using titration with a colorimetric titration. We also analyzed the orthophosphate content of the river water using a modified Molybdate Blue method, originally proposed by Strickland and Parsons for Seawater. [CITE]
+
+[EQUATIONS]
+
+\section{Procedures and Observations}
+\subsection{Quantification of Orthophosphate}
+
+\emph{Preparation of Charles River water Sample}\\
+River from the Charles river was collected in 300mL BOD bottles that were previously rinsed with 10\% dilute HCl solution and dried. After the water samples were collected they were stored in a refigerator while being allowed to settle. After the water was allowed to settle, 10.0 mL of the water was pipetted into three separate small bottles.
+
+\emph{Preparation of Color Developing Solutions (by TA)} \\
+The TAs prepared the color developing solutions for the colorimetric assay. The color developing solution was prepared by mixing 2.6M sulfuric acid with ammonium molybdate, potassium antimonyl-tartrate ($C_8H_4K_2O_{12}Sb_2 \times 3 H_2O$), ascorbic acid. 
+
+\emph{Preparation of 10\% HCl solution (by TA)}\\
+
+
+\emph{Prepartion of Primary Standard Solution (by TA)}\\
+
+
+To prepare the \emph{phosphate working standard stock solution}, a biological 1.00mL adjustable pipette was used to transfer 1.0mL of the TA's Primary Standard solution ($1x10^{-3}M$) to a 100mL volumetric flask previously rinsed with 10\% HCl solution and Milli-Q water. Milli-Q water was added afterwards to fill the flask up to the 100mL mark.
+
+
+\emph{Set-up of beakers for sample preparation}
+11 50mL beakers were set up for colorimetric assay. Seven of the beakers were used for the diluted phosphate standards for calibration. One beaker was used as a blank for the calibration. The remaining three beakers were used for colorimetric analysis of the collected Charles River samples.
+
+\emph{Preparation of Diluted Phosphate Standards from Stock Working Solution}\\
+Phosphate working stock solution was mixed with Milli-Q water in different ratios creating solutions ranging fom 0.00 $\mu M$ $PO_4^{3-}$ to 8.00 $\mu M$ $PO_4^{3-}$ (see table \ref{table:stds}).
+
+\begin{table}[ht]
+\begin{center}
+    \begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} |}
+    \hline
+    Volume of $KH_2PO_4$ stock  & Volume of Milli-Q $H_2O$ to Add  & Final $PO_4^{3-}$ concentration \\ \hline
+    0.00 mL & 10.00 mL & A: 0.00 $\mu M$ \\ \hline
+    0.50 mL & 9.50 mL & B: 0.50 $\mu M$ \\ \hline
+    1.00 mL & 9.00 mL & C: 1.00 $\mu M$ \\ \hline
+    2.00 mL & 8.00 mL & D: 2.00 $\mu M$ \\ \hline
+    4.00 mL & 6.00 mL & E: 4.00 $\mu M$ \\ \hline
+    6.00 mL & 4.00 mL & F: 6.00 $\mu M$ \\ \hline
+    8.00 mL & 2.00 mL & G: 8.00 $\mu M$ \\ \hline
+    \end{tabular}
+    \caption{Table of relative amounts of $KH_2PO_4$ and Milli-Q water in each standard solution.}
+    \label{table:stds}
+\end{center}
+\end{table}
+
+The correct aliquots for each phosphate standard were pipetted into each of the first seven beakers. 10.00mL of the unknown Charles River samples were pipetted into each of the next three beakers. Finally, 10.00mL of Milli-Q water was added to the last beaker, which served as a blank for the experiment. 
+
+The \emph{color developing reagent} was prepared in the hood by mixing in the following in a flask:  5.0mL ammonium molybdate, 12.50mL sulfuric acid, 5.0mL ascorbic acid, and 2.5mL potassium antimonyl-tartrate, to make a total of 25.0mL. 1mL of the color developing reagent was added to eacho f the beakers containing diluted phosphate standards. 1mL of hte color developing reagent was pipetted into each of the 11 beakers. The beakers were allowed to sit out for 20 minutes for the color to develop. It was noted that the beakers containing the highest concentrations of $PO_4^{3-}$ turned the darkest shades of blue. There was only a mild blue color in the solutions in the three beakers containing unknown river samples. 
+
+The absorbance of each solution was measured using the UV-Vis spectrophotometer at 880nm. The values corresponding to the measured concentration values of the known $PO_4^{3-}$ standards were plotted against those of the actual concentration, and a linear regression was conducted to find a formula for correcting the measured concentration to an estimated actual concentration. The $PO_4^{3-}$  of each of the three unknown samples was measured with the UV-Vis, and the concentration of $PO_4^{3-}$ in each sample was calculated.
+
+\subsection{Dissolved oxygen content of Charles River water}
+\subsubsection{Standardization of sodium thiosulfate solution}
+A solution of approximately 0.025XX M $Na_2SO_3$ was prepared by the TA. A sample of of 0.1g of reagent grade potassium bi-iodate ($KH(IO_3)_2$ was prepared by the TA and was dried in a 103-105$^{\circ}C$ drying oven for 1.5 hours overnight. The $KH(IO_3)_2$ was cooled in a desiccator charged with calcium chloride by the TA. To make a standard potassium bi-iodate solution of 0.0021M, 0.0819 $\pm 0.0001g$of dry $KH(IO_3)_2$ (from the dessicator) was massed out and mixed with 50.0$\pm 0.01$mL of warm distilled water. This mixture was eventually diulted to 100.0$\pm0.01$mL in a volumetric flask. 
+
+An aqueous starch solution was prepared by dissolving 0.0500$\pm 0.0001g$ salicylic acid preservative and 0.5036$\pm0.0001g$ starch into a few mL of distilled water. The resulting paste was dissovled in 25.0$\pm0.01$mL of hot distilled water, and kept hot on a hot plate.
+
+The stock thiosulfate solution was mixed several times. Afterwards, 100mL of the thiosulfate soluion was poured into a beaker and stirred. A few mL of the stock thiosulfate solution was used to clean a 50mL burette. The burette was filled with the freslhy mixed thiosulfate soultion, being careful to avoid bubbles forming on the inside of the burette. Three flasks were prepared for titration. Prior to each tiration, 2.0$\pm0.01g$ of potassium iodide (KI) was added into 100.0$\pm0.1$mL of distilled water. 1.0$\pm0.01mL$ of 6N sulfuric acid was then added to the solution. 25.0$\pm0.01mL$ of the warm potassium bi-iodate solution was pipetted into the flask, and 75.0$\pm0.1$mL of distilled water was added to the flask to make a total 200mL solution in the flask. The titration was immediately started, in which the liberated iodine in the flask was titrated with the thiosulfate titrant. When the solution became a pale yellow color, 15 drops of hot aqueous starch solution was added to the flask, changing the color of the soultion from pale yellow to blue. The titration was continued until the color in the flask changed from blue to colorless. The volume titrated was recorded.
+
+After three titrations, the volume recorded for each titration was within $5\%$ of the other titrations, so no more titrations were completed. The molarity of the thiosulfate solution was calculated based on the stoichiometry of the reactions involved.
+
+\subsection{Determination of DO content in Charles River water}
+\emph{Manganous sulfate solution} was prepared by the TA. 
+
+Samples of water were collected from the Charles River in special 300mL BOD bottles. The bottles were placed inside water sampling devices and were allowed to submerse fully inside the water. The bottles were lifted out of the watter and a stopper was dropped into the bottle, being careful not to introduce bubbles in the bottle. 
+
+\emph{Azide-Winkler Method Workup}: Using a calibrated pipette, 2.0mL of 2.15M manganous sulfate solution was pipetted slowly just below the surface of the liquid in each of the bottles. 2mL of alkaline-iodide-azide (AIA) reagent (previously prepared by the TA) was pipetted slowly just below the surface of the liquid in the bottle. Stoppers were replaced onto the collection bottle, being careful not to introduce any air into the bottle. The liquid inside the bottles started to form a milky precipitate, which indicated that oxygen was present in the bottles. The precipitate quickly turned into a yellow-brown color.  After the precipitate settled, the container was inverted to to allow the precipitate to thoroughly mix with the sample and settle again. The container was inverted a total of three times. About 28 drops of concentrated sulfuric acid was added to the surface of the samples using a Pasteur pipette. The collection bottle was stoppered and wiped off to remove any trace of acid that may have spilled out. 
+
+203.0$\pm0.1$mL of the fixed sample (represengting 200mL of the original sample after correcteing for sample loss by displacement of with reagents) was transferred to a 250mL Erlenmeyer flask. A stirbar was placed in the flask and the flask was placed on a vibrating plate. The sample in the flask was titrated with the standardized thiosulfate solution while it was being stirred on the plate. When the sample turned a pale yellow color, about 20 drops of 1$\%$ starch indicator solution was added and the titration was continued until the solution turned colorless. The volume of titrant used was recorded. This volume was used to calculate the dissolved oxygen content of the analyzed samples based off of stoichiometric properties of the reactions. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Results}
+\subsection{Orthophosphate content of Charles River water}
+The temperature of the river water collected was $1.1^{\circ}C$ and the pH was 7.54. 
+The standardization of the UV-Vis spectrophotometer was done on seven standard concentrations of $KH_2PO_4$. The measured concentrations of the known standards are:
+\begin{center}
+    \begin{tabular}{ | p{3cm} | p{3cm} | p{3cm} |}
+    \hline
+    Known [$PO_4^{3-}$] $(\mu M)$ & Measured [$PO_4^{3-}$] $(\mu M)$ \\ \hline
+     A: 0.00 $\mu M$ & -.1201 \\ \hline
+     B: 0.50 $\mu M$ & .2214 \\ \hline
+     C: 1.00 $\mu M$ & .4263 \\ \hline
+     D: 2.00 $\mu M$ & 1.0885\\ \hline
+     E: 4.00 $\mu M$ & 3.9165\\ \hline
+     F: 6.00 $\mu M$ & 6.4766\\ \hline
+     G: 8.00 $\mu M$ & 8.5093\\ \hline
+	\end{tabular}
+\end{center}
+A Q-test was done and certain points were removed (0.5, 1.0 and 2.0 $\mu$M) because they were outliers. The actual measured concentrations of the phosphate standards are in figure \ref{fig:calib} and the regression plot is shown in figure \ref{fig:calib}. The relation between measured and actual concentrations is: $y = 0.9172x + 0.1929$ where $y$ represents the actual concentration while $x$ represents the measured concentration. 
+
+The actual phosphate concentrations of the three samples of charles river water were: 
+\begin{center}
+    \begin{tabular}{ | c | c | l |}
+    \hline
+    Sample \# & Measured & Actual concentration\\ \hline
+    1 & 1.3895 & $0.9172 \times 1.3895  + 0.1929 = 1.4673$\\ \hline
+    2 & 0.9821 & $0.9172 \times 0.9821  + 0.1929 = 1.0937$\\ \hline
+    3 & 1.1658 & $0.9172 \times 1.1658  + 0.1929 = 1.2622$\\ \hline
+    \end{tabular}
+\end{center}
+The mean phosphate concentration was $1.26220\mu M 95\% CI: 0.78610-1.73830)$ \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Dissovled oxygen content of the Charles River water}
+\subsubsection{Standardization of sodium thiosulfate solution}
+0.0819g $KH(IO_3)_2$, which is equivalent to $6.3\times10^{-4}$moles, was used to make the standard solution. It was found that the mean measured concentration of sodium thiosulfate ($NaS_2O_3$) for the standardization was 0.02673$\mu M (95\% CI: 0.02664 − 0.02682)$.  
+The concentration of the calibration samples are:
+\begin{center}
+    \begin{tabular}{ | c|  c | c | l |}
+    \hline
+    Tit. \# & mol $NaS_2O_3 /$  & Volume (L) & $[NaS_2O_3]$\\ \hline
+    1 & $6.3\times10^{-4}$ & .02345 & $0.02687M$ \\ \hline
+    2 & $6.3\times10^{-4}$ & .02369 & $0.02659M$  \\ \hline
+    3 & $6.3\times10^{-4}$ & .02358 & $0.02672M$ \\ \hline
+    \end{tabular}
+\end{center}
+\subsubsection{Colorimetric titration for DO content}
+Water samples were collected from the river for the colorimetric titration. The air pressure of the river was $760.476mmHg$, the air temperature was $5.9^{\circ}C$, the water temperature was $1.4^{\circ}C (278.9K)$. The pressure of the water vapor at sea level was determined to be 7.280mmHg. The saturated level of DO (SLDO, the theoretical amount that the river could potentially hold) given these conditions was determined to be 14.0293mg/L. 
+The results of the titration for the three water samples are:
+ \begin{center}
+    \begin{tabular}{ | c|  l |}
+    \hline
+    Tit. \# & DO content\\ \hline
+    1 & $14.653 \pm 0.375mg/L$  \\ \hline
+    2 & $14.452 \pm 0.370mg/L$ \\ \hline
+    3 & $14.564 \pm 0.373mg/L$ \\ \hline
+    \end{tabular}
+\end{center}
+The mean DO content was $14.5564mg/L (95\%CI:14.491 - 14.622 mg/L)$.  The percent saturated level of DO (\%SL) (DO level divided by SLDO) was determined to be $103.76\%$. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Calculations}
+\subsection{UV-Vis calibration curve and orthophosphate/phosphorus content}
+The actual concentrations of orthophosphate in the Charles River samples were calculated using this equation: 
+\begin{center}
+    \begin{tabular}{ | c | c | l |}
+    \hline
+    Sample \# & Measured & Actual concentration\\ \hline
+    1 & 1.3895 & $0.9172 \times 1.3895  + 0.1929 = 1.4673$\\ \hline
+    2 & 0.9821 & $0.9172 \times 0.9821  + 0.1929 = 1.0937$\\ \hline
+    3 & 1.1658 & $0.9172 \times 1.1658  + 0.1929 = 1.2622$\\ \hline
+    \end{tabular}
+\end{center}
+Mean: $m = 1.26220$ \\
+Standard deviation: $S = \frac{(1.4673-1.26220)^2 + (1.0937-1.26220)^2 + (1.2622-1.26220)^2}{\sqrt{3-1}} = 0.7287$ \\
+Stardard error: $S_{err} = S / \sqrt{3} = 0.4207$ \\
+95\% CI: $m \pm t S_{err} / \sqrt(3) = 1.26220 \pm 1.96 \times 0.4207 / \sqrt(3) = (0.78610-1.73830)$ \\
+
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width = 7in]{calib_plot.png}\\
+\end{center}
+\caption{Calibration curve for phosphate standards. Only the $0\mu M, 4\mu M, 6\mu M$ and $8\mu M$  standards were used to calculate the linear regression because the points corresponding to the other concentrations were outliers.}   
+\label{fig:calib}
+\end{figure}
+
+\subsection{Concentration of $Na_2S_2O_3$ for standardization}
+The following were the titration volumes for the standardization:
+\begin{center}
+    \begin{tabular}{ | c|  c | c | l |}
+    \hline
+    Tit. \# & Start Volume (mL) \# & End Volume (mL) & Titration Volume (mL)\\ \hline
+    1 & 18.15 & 41.60 & 23.45 \\ \hline
+    2 & 8.51 & 32.30 & 23.69  \\ \hline
+    3 & 10.49 & 34.07 & 23.58 \\ \hline
+    \end{tabular}
+\end{center}
+Since we used $0.0819g KH(IO_3)_2$, then the number of moles $NaS_2O_3$ we used was:
+$0.0819 g KH(IO_3)_2 \times 1 $mol$ / 389.9g \times 1 / 0.1L \times 12$mol $S_2O_3$ / 1mol $KH(IO_3)_2 \times 0.025L = 6.3\times10^{-4}$ mol $NaS_2O_3$. 
+The mean concentrations of the calibration samples are:
+\begin{center}
+    \begin{tabular}{ | c|  c | c | l |}
+    \hline
+    Tit. \# & mol $NaS_2O_3 /$  \# & Volume (L) & $=[NaS_2O_3]$\\ \hline
+    1 & $6.3\times10^{-4}$ & /.02345 & $=0.02687M$ \\ \hline
+    2 & $6.3\times10^{-4}$ & /.02369 & $=0.02659M$  \\ \hline
+    3 & $6.3\times10^{-4}$ & /.02358 & $=0.02672M$ \\ \hline
+    \end{tabular}
+\end{center}
+Mean: $m = 0.02673$ \\
+Standard deviation: $S = \frac{(0.02687-0.02673)^2 + (0.02659-0.02673)^2 + (0.02672-0.02673)^2}{\sqrt{3-1}} = 0.0001401$ \\
+Stardard error: $S_{err} = S / \sqrt{3} = 0.00008090$ \\
+95\% CI: $m \pm t S_{err} / \sqrt(3) = 0.02673 \pm 1.96 \times 0.4207 / \sqrt(3) = (0.02664-0.02682)$ \\
+
+\subsection{Concentration of DO}
+The volumes for each of the 3 titrations are:
+\begin{center}
+    \begin{tabular}{ | p{1.5cm}|  p{2cm} | p{2cm} | p{3cm} | c|}
+    \hline
+    Tit. $\#$ & Start Volume (mL) & End Volume (mL) & Titration Volume (mL) & Error = $\sqrt{0.01^2 + 0.01^2}$\\ \hline
+    1 & 1.12 & 14.25 & 13.13 & 0.014\\ \hline
+    2 & 14.25 & 27.20 & 12.95 & 0.014 \\ \hline
+    3 & 27.20 & 40.25 & 13.05 & 0.014\\ \hline
+    \end{tabular}
+\end{center}
+
+The class average for concentration of $S_2O_3^{2-}$ for the standardization curves was 0.0279mol/L ($\pm 0.0007$). For the titrations, the DO content was:
+ \begin{center}
+    \begin{tabular}{ | c|  l |}
+    \hline
+    Tit. \# & DO content\\ \hline
+    1 & $13.13 \times 0.0279mol/L \times 1mol O_2/4mol S_2O_3^{2-} \times 32g/mol \times 1/0.200L = 14.653mg/L$  \\ \hline
+    2 & $12.95 \times 0.0279mol/L \times 1mol O_2/4mol S_2O_3^{2-} \times 32g/mol \times 1/0.200L = 14.452mg/L$ \\ \hline
+    3 & $13.05 \times 0.0279mol/L \times 1mol O_2/4mol S_2O_3^{2-} \times 32g/mol \times 1/0.200L = 14.564mg/L$ \\ \hline
+    \end{tabular}
+\end{center}
+Mean DO content: $m = 14.556 mg/L$\\
+Standard deviation: $S = \frac{(14.653-14.556)^2 + (14.452-14.556)^2 + (14.564-14.556)^2}{\sqrt{3-1}} = 0.101$ 
+Standard error: $S_{err} = S / \sqrt{3}=0.058$
+95\% CI: $m \pm t S_{err} / \sqrt(3) = 14.556 \pm 1.96 \times 0.058 / \sqrt(3) = (14.491 - 14.622)$
+
+The error for the DO content is given as:
+ \begin{center}
+    \begin{tabular}{ | c|  l |}
+    \hline
+    Tit. \# & Error for DO content\\ \hline
+    1 & $14.653\times \sqrt{(0.014/13.13)^2 + (0.0007 / 0.0279)^2 + (0.001 / 0.200)^2} = 0.375$\\ \hline
+    2 & $14.452 \times \sqrt{(0.014/12.95)^2 + (0.0007 / 0.0279)^2 + (0.001 / 0.200)^2} = 0.370$\\ \hline
+    3 & $14.564 \times \sqrt{(0.014/13.05)^2 + (0.0007 / 0.0279)^2 + (0.001 / 0.200)^2} = 0.373$ \\ \hline
+    \end{tabular}
+\end{center}
+
+\subsection{SLDO and \%SL of the Charles River}
+Air Pressure $= 29.94inHg$\\
+Air Pressure $=760.476mmHg$\\
+Air Temp $=5.9^{\circ} C$\\
+Water Temp $=1.4^{\circ} C$\\
+Water Temp $T =278.9 K$\\
+Pressure of water vapor $= p = exp(20.386 - 5132/ T) = exp(20.386 - 5132/ 278.9) = 7.280 mmHg$\\
+SLDO $=\frac{(P-p)\times0.678}{35+T} = \frac{(760.476-7.280)\times0.678}{35 + 1.4} = 14.0293mg/L$\\
+\%SL = (mean DO content) / SLDO $\times 100\% = 14.556 / 14.0293 \times 100\% = 103.76\%$. \\
+
+--------------------------------------
+
+
+
+
+
+
+
+

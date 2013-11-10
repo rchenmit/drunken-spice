@@ -1,0 +1,43 @@
+% RSI paper template
+
+% This is main.tex
+
+% DO NOT MODIFY this file, except to 
+%  1. Add additional packages or
+%  2. Add macros,
+% if you know what you are doing or are following directions of one of
+% the technical staff.
+
+\documentclass[12pt,notitlepage]{article}
+\usepackage{rsipacks}
+\input{preamble}
+\doublespacing
+
+\begin{document}
+
+\include{cover}
+
+\begin{singlespace}
+\maketitle
+\thispagestyle{empty}
+\end{singlespace}
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+
+\begin{onehalfspace}
+\setcounter{page}{1}
+\include{paper}
+\end{onehalfspace}
+
+\begin{singlespace}
+\include{biblio}
+\end{singlespace}
+
+\begin{singlespace}
+\include{appa}
+\end{singlespace}
+
+\end{document}

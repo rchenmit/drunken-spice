@@ -1,0 +1,16 @@
+pubmed-hypo: http://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002265/
+medscape: http://emedicine.medscape.com/article/1016681-overview
+
+ESVbible: The ESV Bible (The Holy Bible, English Standard Version). ESV Text Edition: 2007. Available at http://bible.cc/leviticus/20-13.htm (April 3, 2011).
+
+savic: Savic I, Garcia-Falgueras A, Swaab DF. Sexual differentiation of the human brain in rela-
+tion to gender identity and sexual orientation. Progress in Brain Research. 2010;186:41-
+62.
+
+fausto: fasuto-sterling paper - five sexes: why male and female are not enough
+
+census: http://www.census.gov/population/www/socdemo/race/racefactcb.html
+
+time: http://healthland.time.com/2010/12/16/passing-as-black-how-biracial-americans-choose-identity/
+
+franklin: franklin paper on dolly

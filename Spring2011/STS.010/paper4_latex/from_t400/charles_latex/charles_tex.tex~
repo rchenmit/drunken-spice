@@ -1,0 +1,110 @@
+\documentclass[]{report}   % list options between brackets
+\usepackage{amsthm}              % list packages between braces
+\usepackage{array}
+\newtheorem{2.1}{Theorem}
+% type user-defined commands here
+
+\begin{document}
+
+\title{\TeX\ and \LaTeX}   % type title between braces
+\author{Robert E.Chen}         % type author(s) between braces
+\date{October 27, 1995}    % type date between braces
+\maketitle
+
+\begin{abstract}
+  We present Markov processes.
+\end{abstract}
+
+\chapter{Introduction to Markov Processes}             % chapter 1
+\section{Intro}     % section 1.1
+Stochastic processes are chains of random events. You can model these processes over time using Markov chain. there are many applications to this.
+\begin{enumerate}
+  \item We can model a worm moving through a petri dish over each successive interval of time.
+  \item Model the movement of a drug particle inside a cell; see how long it takes to reach the drug target, and what path it takes.
+  \item Model the growth of a population of bacteria. Each one can produce offspring and the number of individuals grow exponentially over time.
+\end{enumerate}
+
+\subsection{Definitions}
+A system can be in one of many different states at a given point in time. \\
+
+The \emph{state space} S is the set of all possible states.
+
+Let $X_t$ denote the state of the system at time $t$. 
+
+A \emph{Markov Process} ${X_t}$ is a stochastic process with the property that, given the value of $X_t$, values of $X_s$ for $s>t$ are not influenced by values of $X_n$ for $u<t$ . 
+$$ DRAW$$
+
+A \emph{Discrete time Markov chain} is a markov process whose state space is a finite (countable) set and the time index set is $T = (0,1,2,....)$.  In formal terms:
+$$Pr\{X_{n+1} = j | X_0 = i_0, ...., X_{n=1} = i_{n-1}, X_n = i\}$$
+$$ = Pr\{X_{n+1} = j | X_n = j\} $$
+for all timepoints $n$ and states $i_0, i_1, ...., i_{n-1}, i, j$
+
+The \emph{one-step transition probability} $P_{ij}^{n,n+1}$ is the probability of $X_{n+1}$ being in state $j$ given that $X_n$ is in the state $i$ currently. 
+$$P_{ij}^{n,n+1} = P\{X_{n+1} = j | X_n i \}$$
+
+Note: the one-step transition probabilities are \emph{stationary} transition probabilities, meaning that the transition probability is independent of the variable $n$. THIS ESENTIALLY MEANS THAT, \textbf{given the present, the future is independent of the past}
+
+Then $P_{ij}^{n,n+1} = P{ij}$ is independent of $n$, and $P_{ij}$ is the conditional probability that the state value undergoes a transition from i to j in one trial. It is customary to arrange these numbers in a matrix, called the transition probability matrix:
+
+$$ P = \[ \left( \begin{array}{cccc}
+P_{00} & P_{01} & P_{02} & ... \\
+P_{10} & P_{11} & P_{12} & ... \\
+\vdots & \vdots & \vdots & \    \\
+P_{i0} & P_{i1} & P_{i2} & \    \\
+\vdots & \vdots & \vdots & \   \end{array} \right)\] 
+$$
+
+The ith row of P, for i=0,1,2,... is the probability distribution of the values of $X_{n+1}$ under the condition that $X_n = i$
+The quantities $P_{ij}$ satisfy the conditions
+$$P_{ij} \geq 0$$ for $
+i,j=0,1,2,3...$
+$$\sum{j=0}^\infty P_{ij} = 1 $$for $i = 0,1,2,3....$
+
+
+\subsection{n-step transition probabilities}
+Later on, when we want to use Markov chains to see what happens to a system after a long period of time...something that will be important for this is the \emph{n-step transition probability matrix} $P^{(n)} = |P_{ij}^{(n)}|$. Here  $P_{ij}^{(n)}$ denotes the probability that the process goes from state $i$ to state $j$ in $n$ transitions. Formally, 
+$$P_{ij}^{(n)} = Pr(X_{m+n} = j | X_m = i).$$
+Using the markov property, we will now express this equation in terms of the entries of the matrix $P^{(n)}$.
+
+
+\begin{2.1}
+\label{thm2.1}
+The n-step transition probabilities of a markov chain satisfy 
+$$P_{ij}^{(n)} = \sum_{k=0}^\infty P_{ij}P_{kj}^{(n-1)},$$
+where we define 
+
+\[
+  $P_{ij}^{(0)}$ = \left\{
+  \begin{array}{l l}
+    1 & \quad \text{if $i =j$}\\
+    0 & \quad \text{if $i\neq j$}\\
+  \end{array} \right.
+\]
+\end{2.1}
+The theorem \ref{thm2.1} is just hte formula for matrix multiplication, therfore $P^{(n)} = P \times P \times ... \times P = P^{(n)}$.  
+\begin{proof}
+We can prove this with what's called \textbf{first step analysis}, which is a ``breaking down'' of the possible transitions on the first step. We also apply the Markov property.  
+
+Think of the event of going from state $i$ to state $j$ in $n$ transitions as going through some intermediate state $ (k = 0,1,...)$ in the first transition, and then going from state $k$ to state $j$ in the remaining $(n-1)$ transitions. Because of the Markov property, the probability of the second transition is just $P_{kj}^{(n-1}$ and the probability of the first transition is just $P_{ij}$.  
+
+If we use the \emph{law of total probability} (sum the probabilities for disjoint events) then we get that the probability that if you start at state $i$ you will get to state $j$ is this:\\
+\\
+\begin{tabular}{r c l}
+\(P_{ij}^{(n)}\) & \(=\) & \(Pr\{X_n = j | X_0 = i \} = \sum_{k=0} ^ \infty Pr\{X_n = j, X_1 = k | X_0 = i\}\) \\
+  & \(=\) & \(\sum_{k=0} ^ \infty Pr\{X_1 = k | X_0 = i\} Pr \{X_n = j | X_0 = i, X_1 = k \}\) \\
+  & \(=\) & \(\sum_{k=0} ^ \infty P_{ik} P_{kj}^{(n-1)}. \)
+\end{tabular}
+
+\end{proof}
+
+
+
+
+
+
+
+\begin{thebibliography}{9}
+  % type bibliography here
+\end{thebibliography}
+
+\end{document}
